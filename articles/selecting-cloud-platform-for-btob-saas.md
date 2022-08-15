@@ -12,7 +12,7 @@ published: false
 
 https://qiita.com/h1guchi/items/4c4fc1b11580b76409b9
 
-https://qiita.com/h1guchi/items/4c4fc1b11580b76409b9
+https://qiita.com/toto_inu/items/77e31e92f908a1fda8f7
 
 # クラウド基盤の選定
 
