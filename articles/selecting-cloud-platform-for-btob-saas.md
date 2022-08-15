@@ -1,5 +1,5 @@
 ---
-title: "法人向けSaaSのクラウド基盤の選定"
+title: "法人向けSaaSのクラウド基盤(+データベース)の選定"
 emoji: "🌊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Firebase", "サーバレス", "IaaS", "BtoB"]
@@ -10,9 +10,17 @@ published: false
 
 ## 参考資料
 
+### クラウド基盤
+
 https://qiita.com/h1guchi/items/4c4fc1b11580b76409b9
 
 https://qiita.com/toto_inu/items/77e31e92f908a1fda8f7
+
+### データベース
+
+https://zenn.dev/nyarla/scraps/326424edf5d2eb
+
+https://blog.kon-shou.com/posts/20200519/
 
 # クラウド基盤の選定
 
@@ -33,3 +41,11 @@ https://qiita.com/toto_inu/items/77e31e92f908a1fda8f7
 
 - 方針 2.最初から AWS でいく
   - 費用を抑える方法を探したとしても、個人資金の範囲で収まるかどうか
+
+# データベースの選定
+
+## SQL か NoSQL か
+
+NoSQL の個人的な最大のメリットは、フロントエンドから直接 DB にアクセスできるためバックエンドの開発や学習を行わないで良い点です。
+
+## 選定基準
