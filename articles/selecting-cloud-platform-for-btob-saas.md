@@ -2,7 +2,7 @@
 title: "法人向けクラウドサービスのインフラ(ホスティング・DB・認証・サーバレスアーキテクチャ)選定"
 emoji: "🌊"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["AWS", "Firebase", "サーバレス", "IDaaS", "BtoB"]
+topics: ["AWS", "Firebase", "Amplify", "SaaS", "BtoB"]
 published: true
 ---
 
