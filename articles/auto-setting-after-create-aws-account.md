@@ -3,7 +3,7 @@ title: "AWSアカウントで最初にやるべきことの自動化"
 emoji: "🌊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Terraform", "BtoB", "SaaS", "IaC"]
-published: false
+published: true
 ---
 
 # 概要
@@ -49,6 +49,7 @@ https://qiita.com/boccham/items/190f04bfbc9ffc0b5baf
 
 環境変数の設定においては、以下のように変数を sensitive に設定して GUI や API 上でも設定されないようにしました。
 間違えて設定した場合は、見えにくいですが右側に「…」がありますのでそちらから削除可能です。
+
 ![環境変数の設定](/images/auto-setting-after-create-aws-account/terraform-cloud-variable.png)
 
 また、記事の中で「Queue plan から Cloud 上で terraform plan を実行することが可能です」という記載がありましたが私の環境では表示されなかったため、タブ「Run」から実行しました。
@@ -59,7 +60,7 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 # 自動化の設定
 
 以下のファイルにて設定を管理していますので、実装をみたい方は以下をご参照ください。
-https://github.com/mathken029/terraform/blob/main/main.tf
+https://github.com/mathken0290141/terraform_public/blob/main/main.tf
 
 以下では各設定の補足を記載し、実装内容自体は取り上げません。
 
@@ -156,9 +157,7 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/acce
 
 ![IAM-AccessAnalyzer-rule](/images/auto-setting-after-create-aws-account/IAM-AccessAnalyzer-rule.png)
 
-### (Amazon GuardDuty) 有効化【SHOULD】
-
-### (Amazon GuardDuty) S3/Kubernetes 保護の有効化【SHOULD】
+### (Amazon GuardDuty) 有効化, S3/Kubernetes 保護の有効化【SHOULD】
 
 以下をそのまま貼り付けました。
 一点、kubernetes の audit_logs を true に変更しました。
@@ -225,17 +224,53 @@ Terraform のドキュメントを「security question」及び「secret questio
 
 ### (AWS Cost Explorer) 有効化（起動）【SHOULD】
 
+「Cost Explorer」で Terraform のドキュメントを検索しましたが、Cost Explorer 自体を有効化するような設定は見つかりませんでした。
+本作業を実施する前に Cost Explorer を起動していたため、どれが有効化に関係するのかわからなかったというのもあります。
+
 ### (AWS Cost Explorer) サイズの適正化に関する推奨事項を有効化【SHOULD】
+
+Terraform のドキュメント内に有効化する項目が見当たらなかったため、該当項目のマネジメントコンソール上の英語表記である「Amazon EC2 resource recommendations」で検索してみましたが、情報が出てきませんでした。
+
+マネジメントコンソールから Cost Explorer を表示して以下から有効化できるので、手動で有効化するのが良いと考えます。
+
+![CostExplorer-size](/images/auto-setting-after-create-aws-account/CostExplorer-size.png)
 
 ### (AWS Compute Optimizer) 有効化【SHOULD】
 
+Terraform のドキュメントを「Compute Optimizer」で検索しましたがヒットしませんでした。
+以下ページより手動で有効化できます。
+
+https://us-east-1.console.aws.amazon.com/compute-optimizer/home/
+
 ### (AWS Cost Anomaly Detection) 有効化（モニターとサブスクリプション設定）【SHOULD】
 
+以下のドキュメントの内容をそのまま貼り付けました。
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ce_anomaly_subscription
+
+以下の通り、コストモニターが追加されてます。
+
+![CostAnomalyDetection](/images/auto-setting-after-create-aws-account/CostAnomalyDetection.png)
+
 ### (AWS Budgets) 予算アラートの設定【SHOULD】
+
+以下の「Create a budget for $100」をそのまま貼り付けます。
+また、同ページ内の別サンプルからメール通知を行うための「notification」の箇所をコピーして貼り付けました。
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/budgets_budget
+
+以下の通り、予算が作成されています。
+
+![Budgets](/images/auto-setting-after-create-aws-account/Budgets.png)
+
+通知先のメールアドレスが表示されませんが、予算の編集を行うとメールアドレスが登録されているのが分かります。
+
+![Budgets-email](/images/auto-setting-after-create-aws-account/Budgets-email.png)
 
 ## その他
 
 ### (リソース命名規則) 大まかな命名規則の決定【SHOULD】
+
+Terraform での設定ではないですが、実運用する際は以下を参考に命名をします。
+https://dev.classmethod.jp/articles/aws-name-rule/
 
 # MUST、SHOULD ではないが自動化するもの
 
@@ -243,12 +278,11 @@ Terraform のドキュメントを「security question」及び「secret questio
 
 ## 契約・コスト
 
-### (請求コンソール (Billing)) AWS Cost and Usage Reports の有効化【MAY】
+### (請求コンソール (Billing)) PDF 請求書の設定【MAY】 & 無料利用枠の使用アラートの設定【MAY】
 
-### (請求コンソール (Billing)) コスト配分タグの設定【MAY】
+Terraform 内のドキュメントには該当設定が見当たリませんでした。
+Billing の「請求設定」から PDF 請求書の発行及び無料利用枠の使用アラートの設定が行なえます。
 
-### (請求コンソール (Billing)) PDF 請求書の設定【MAY】
+# まとめ
 
-### (請求コンソール (Billing)) 無料利用枠の使用アラートの設定【MAY】
-
-### (請求コンソール (Billing)) 請求アラートの設定【INFO】
+以上で全ての設定を完了しました。必要に応じて今後更新していきます。
