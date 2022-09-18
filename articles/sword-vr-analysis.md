@@ -103,7 +103,7 @@ https://www.youtube.com/watch?v=raVBa1SWvVg
 
 https://www.oculus.com/experiences/quest/4410602018966965/
 
-https://www.youtube.com/watch?v=rnhaeCoSDRk
+(トレイラー)[https://www.youtube.com/watch?v=rnhaeCoSDRk]
 
 今のところ最も作りたいゲームのイメージに近いものでした。
 
@@ -135,7 +135,11 @@ https://store.steampowered.com/app/1465070/_/
 かなり良さそうなのですが、Meta Quest 2 に対応していないためプレイができません。
 下記の動画で把握することができそうです。
 
-https://www.youtube.com/watch?v=QQx1rx7MHc0
+(プレイ動画)[https://www.youtube.com/watch?v=QQx1rx7MHc0]
+
+- 良い点
+  - 3 人称視点は周りを見渡せて戦いやすいです
+  - パリィが敵の攻撃に対して直角に当てる必要があり、難易度が高くなっています
 
 ## Vader Immortal: エピソード I
 
