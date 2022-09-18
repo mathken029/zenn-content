@@ -103,7 +103,7 @@ https://www.youtube.com/watch?v=raVBa1SWvVg
 
 https://www.oculus.com/experiences/quest/4410602018966965/
 
-(トレイラー)[https://www.youtube.com/watch?v=rnhaeCoSDRk]
+https://www.youtube.com/watch?v=rnhaeCoSDRk
 
 今のところ最も作りたいゲームのイメージに近いものでした。
 
@@ -135,7 +135,7 @@ https://store.steampowered.com/app/1465070/_/
 かなり良さそうなのですが、Meta Quest 2 に対応していないためプレイができません。
 下記の動画で把握することができそうです。
 
-(プレイ動画)[https://www.youtube.com/watch?v=QQx1rx7MHc0]
+https://www.youtube.com/watch?v=QQx1rx7MHc0
 
 - 良い点
   - 3 人称視点は周りを見渡せて戦いやすいです
