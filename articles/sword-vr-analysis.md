@@ -151,6 +151,9 @@ https://www.oculus.com/experiences/quest/2567459230020142/
 https://store.steampowered.com/app/1465070/_/
 
 かなり良さそうなのですが、Meta Quest 2 に対応していないためプレイができません。
+下記の動画で把握することができそうです。
+
+https://www.youtube.com/watch?v=QQx1rx7MHc0
 
 # まとめ
 
