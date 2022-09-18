@@ -2,7 +2,7 @@
 title: "剣戟VRゲームの分析"
 emoji: "⚔"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: ["個人開発", "剣", "VR", "死にゲー", "ゲーム開発"]
+topics: ["個人開発", "Meta Quest", "VR", "死にゲー", "ゲーム開発"]
 published: true
 ---
 
