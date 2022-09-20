@@ -147,6 +147,8 @@ https://www.youtube.com/watch?v=QQx1rx7MHc0
 
 https://www.oculus.com/experiences/quest/2108775495884888
 
+https://www.youtube.com/watch?v=jc3ej0tc3a8
+
 - 良い点
 
   - 戦闘時の迫力がとにかくすごく、呼吸が浅くなるほどの緊張感があります。自分が求めていたのはこれだと感じました。
