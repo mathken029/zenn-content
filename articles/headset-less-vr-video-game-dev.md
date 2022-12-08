@@ -6,10 +6,26 @@ topics: ["個人開発", "Meta Quest", "VR", "ゲーム開発"]
 published: false
 ---
 
-# 概要
+「Unity ゲーム開発者ギルド Advent Calendar 2022」の 12/15 の記事です。
+ギルド入ってすぐですが、色んな話ができてすごく楽しいです。
+
+https://adventar.org/calendars/7428
+
+# 宣伝
+
+最初に宣伝です。
+本記事は執筆中のの技術書『#VR 剣戟ゲーム開発入門』の内容を抜粋しています。
+技術書典及び BOOTH で発売予定なのですが、完成ファイルがないとページ作成ができないようでリンク貼れてないです。
+
+そういうのが出るのだな～と心に留めておいてください。
+以下本題です。
+
+# ヘッドセットをできるだけ着けないで VR ゲームを開発する
 
 VR に限らず開発を行うにあたっては、開発スピードを少しでも上げるために様々な効率化を行っておく必要があります。
 特に時間がかかる作業から取り掛かることが重要です。VR ゲームの開発においては、VR ヘッドセットのつけ外しの時間が意外に時間がかかる作業です。
+
+この記事では各種セットアップ方法は各記事に任せ、セットアップ後に行うと開発がし易い設定を解説します。VR 剣戟ゲームを想定した内容ですが、他のジャンルでも応用が効くはずです。
 そのため、VR ヘッドセットをつけないでも簡単な動作確認ができるように設定をしましょう。
 
 各種 VR ヘッドセットの Unity でのセットアップについては以下の記事をご参照ください。
@@ -21,9 +37,25 @@ https://framesynthesis.jp/tech/unity/xr/
 ただ、実際の操作感を確かめたりは難しく何より VR ヘッドセットを着けてテストプレイするほうが楽しいので、最初は VR ヘッドセット無しで開発を開始したとしても、
 ゆくゆくは購入すると良いでしょう。
 
-# XR Device Simulator の活用
+## キャプチャの中で使用しているアセット
 
-セットアップ方法やデフォルトの操作方法は記事![XR Device Simulator を利用してマウスキーボードで VR アプリ内の操作を行う【XR Interaction Toolkit】](https://xrdnk.hateblo.jp/entry/2021/02/12/200000)を参照してください。
+キャプチャは開発中のゲームのものを使用しているため以下のアセットを使用しています。
+それ以外のアセットやただの四角形でも試すことはできますので、特に以下のアセットの配置方法などは本記事では解説しません。
+
+■ ステージ
+https://assetstore.unity.com/packages/3d/environments/dungeons/decrepit-dungeon-lite-33936
+
+■ 武器
+https://assetstore.unity.com/packages/3d/props/weapons/wakizashi-short-sword-144679
+
+■ 敵
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/skeleton-warrior-1-222338
+
+## XR Device Simulator の活用
+
+セットアップ方法やデフォルトの操作方法は以下の記事を参照してください。
+
+https://xrdnk.hateblo.jp/entry/2021/02/12/200000
 
 XR Device Simulator のセットアップが終わったら、インスペクタウィンドウのアイコンの横のチェックボックスをオンにして、XR Device Simulator を有効化しましょう。
 
@@ -72,4 +104,8 @@ T キーを押したことにより一時的に左コントローラの操作に
 
 ![XR-Device-simulator-010](/images/headset-less-vr-video-game-dev/XR-Device-simulator-010.jpg)
 
-# まとめ
+# 最後に
+
+XR Device Simulator の機能をまだまだ使いこなせていないと思うので、もしこういった使い方をしているよというのがあれば以下までご連絡ください。
+
+https://twitter.com/_mathken
