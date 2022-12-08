@@ -1,5 +1,5 @@
 ---
-title: "ヘッドセットをできるだけ着けないVRゲーム開発方法"
+title: "XR Device Simulatorを用いたヘッドセットをできるだけ着けないVRゲーム開発方法"
 emoji: "👓"
 type: "teck" # tech: 技術記事 / idea: アイデア
 topics: ["個人開発", "Meta Quest", "VR", "ゲーム開発"]
@@ -60,21 +60,16 @@ QE キーを押すと、視点を動かすことができます。
 本来は左コントローラの操作に切り替えるための Shift キーを押しながらキーを押す必要があるのですが、
 T キーを押したことにより一時的に左コントローラの操作になっているため、Shift キーを押す必要がありません。
 
-最後に、LeftHand Controller を選択し、以下のように設定を変更します。
-
-以下のチェックを外すことで、武器を持ってるときに移動しても武器が動かなくなります。
-![XR-Device-simulator-007](/images/headset-less-vr-video-game-dev/XR-Device-simulator-007.png)
-
 以下の設定を行うことで、武器を掴みっぱなしにできるので操作が楽になります。
 
-![XR-Device-simulator-008](/images/headset-less-vr-video-game-dev/XR-Device-simulator-008.png)
+![XR-Device-simulator-008](/images/headset-less-vr-video-game-dev/XR-Device-simulator-008.jpg)
 
 以下の設定を行うことで、最初から手に武器を持っている状態となるため効率的に開発できます。
 ゲームを再生すると武器で視界が塞がられるため、T キーで位置を動かすようにしましょう。
 左が終わったら右も同様に行います。
 
-![XR-Device-simulator-009](/images/headset-less-vr-video-game-dev/XR-Device-simulator-009.png)
+![XR-Device-simulator-009](/images/headset-less-vr-video-game-dev/XR-Device-simulator-009.jpg)
 
-![XR-Device-simulator-010](/images/headset-less-vr-video-game-dev/XR-Device-simulator-010.png)
+![XR-Device-simulator-010](/images/headset-less-vr-video-game-dev/XR-Device-simulator-010.jpg)
 
 # まとめ
