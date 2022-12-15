@@ -7,7 +7,6 @@ published: true
 ---
 
 「Unity ゲーム開発者ギルド Advent Calendar 2022」の 12/15 の記事です。
-とりあえず書き終わったので公開してて、12/15 になったらカレンダーに反映予定です。
 ギルド入ってすぐですが、色んな話ができてすごく楽しいです。
 
 https://adventar.org/calendars/7428
