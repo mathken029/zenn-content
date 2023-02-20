@@ -79,6 +79,22 @@ https://menta.work/plan?q=%E8%84%9A%E6%9C%AC
 
 ## 開発
 
+## 入門
+
+開発をしたことがないと、そもそも入門するまでに時間がかかります。
+
+私は以下の入門書をこなしたあとに、上記の MENTA でメンターを探しわからないことを都度相談しながら開発を始めました。
+両方とも、新しいバージョンの本が出ている可能性があるのでご注意ください。
+2 冊実施したのは、それぞれでカバーしている機能が異なったためです。
+
+https://amzn.asia/d/6jBEmUh
+
+https://amzn.asia/d/4pFxVFY
+
+また、C#の理解が足りていなかったので以下を追加で今読んでいます。
+
+https://amzn.asia/d/169t4zw
+
 ### 設計
 
 設計開始前の有償での有識者との壁打ち及び設計中のレビューが最も有効と考えます。
@@ -87,6 +103,12 @@ https://menta.work/plan?q=%E8%84%9A%E6%9C%AC
 Unity での設計については以下の記事が参考になります。
 
 https://learning.unity3d.jp/6159/
+
+現在、上記の本で勧められていた以下の本を読もうとしています。
+
+https://amzn.asia/d/1lyI4dB
+
+https://amzn.asia/d/2aTVysn
 
 前述の MENTA というサービスで、「Unity」で検索した場合の結果を以下に貼ります。
 後述のコーディング関連のメンターを探すのにも有効でしょう。
@@ -151,7 +173,14 @@ https://learning.unity3d.jp/8848/
 
 https://note.com/kudoshusak/n/n9700e8139e18
 
+イラストを学ぶ際は、以下のサービスがあります。
+
+https://www.palmie.jp/
+
 3D モデルについては、ベースとなる物体を何らかの方法で取り込むことができれば効率化につながると考えるが知見がありません。
+Blender での 3D モデリングについて学ぶ場合、以下の講座がおすすめです。
+
+https://www.udemy.com/share/104ovs3@putrgarqNrnRLIr4HnRUy2rUjiRWOJh6QH80r_ggsu6OirlsjkLOn_1C7aa2tVy6VQ==/
 
 アニメーションについては、モーションキャプチャの活用により効率化できる余地があると考えます。
 私は以下の mocopi というモーションキャプチャを利用しています。
