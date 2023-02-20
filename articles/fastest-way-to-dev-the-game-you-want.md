@@ -68,7 +68,7 @@ https://forbesjapan.com/articles/detail/38145
 ここについては、速度を上げる方法が見当がつかないのが正直なところです。
 『SAVE THE CAT の法則 本当に売れる脚本術』に則り、考えたプロットを他人に話した反応が芳しくなければ、思い切って捨てて次のプロットを書くという方法はあります。
 
-https://amzn.asia/d/hX6KAHx
+https://www.amazon.co.jp/%EF%BC%B3%EF%BC%A1%EF%BC%B6%EF%BC%A5-%EF%BC%B4%EF%BC%A8%EF%BC%A5-%EF%BC%A3%EF%BC%A1%EF%BC%B4%E3%81%AE%E6%B3%95%E5%89%87-%EF%BC%B3%EF%BC%A1%EF%BC%B6%EF%BC%A5-%EF%BC%B4%EF%BC%A8%EF%BC%A5-%EF%BC%A3%EF%BC%A1%EF%BC%B4%E3%81%AE%E6%B3%95%E5%89%87-%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%80%E3%83%BC-ebook/dp/B0776P5DX8/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=136LXKXJM4XXA&keywords=save+the+cat%E3%81%AE%E6%B3%95%E5%89%87+save+the+cat%E3%81%AE%E6%B3%95%E5%89%87&qid=1676902684&s=digital-text&sprefix=save+the+cat%E3%81%AE%E6%B3%95%E5%89%87+save+the+cat%E3%81%AE%E6%B3%95%E5%89%87%2Cdigital-text%2C143&sr=1-1
 
 しかし、あくまで売れる脚本を書くための方法です。本文章における命題は、最速で自分が最も遊びたいゲームを開発することです。ここにおいては、自分が読んで刺さるものがなければ、次のものを書くしか無いのかもしれないです。
 
