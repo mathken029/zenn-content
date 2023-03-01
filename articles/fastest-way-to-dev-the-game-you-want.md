@@ -177,10 +177,13 @@ https://note.com/kudoshusak/n/n9700e8139e18
 
 https://www.palmie.jp/
 
-3D モデルについては、ベースとなる物体を何らかの方法で取り込むことができれば効率化につながると考えるが知見がありません。
+3D モデルについては、ベースとなる物体を何らかの方法で取り込むことができれば効率化につながると考えますが知見がありません。
 Blender での 3D モデリングについて学ぶ場合、以下の講座がおすすめです。
 
 https://www.udemy.com/share/104ovs3@putrgarqNrnRLIr4HnRUy2rUjiRWOJh6QH80r_ggsu6OirlsjkLOn_1C7aa2tVy6VQ==/
+
+調べてみたところ、AI による 3D モデル作成はまだこれからのようですが進んではいるようです。
+https://techcrunch.com/2022/12/20/openai-releases-point-e-an-ai-that-generates-3d-models/
 
 アニメーションについては、モーションキャプチャの活用により効率化できる余地があると考えます。
 私は以下の mocopi というモーションキャプチャを利用しています。
@@ -217,6 +220,10 @@ https://www.udemy.com/share/1087Qc3@ouyQQ6XayhLXnjB_6gdwvb9n0WnkEqnNPujorHOqUroT
 ファイルを読み込ませて編集可能な状態で取り出すには、DeepL の有料プランが必要になります。
 
 https://www.deepl.com/pro?cta=header-pro
+
+また、以下のサービスに翻訳した文章を投入することで文法を修正してくれます。
+
+https://www.grammarly.com/
 
 可能であれば英語のスキルを長期的に積んでおいて、最低限自分でチェックができるとよいでしょう。
 何かで読んだのですが、英語から他の言語に翻訳してもらう翻訳者は見つけやすいらしいです。
