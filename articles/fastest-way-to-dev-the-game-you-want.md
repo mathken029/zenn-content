@@ -177,11 +177,14 @@ https://note.com/kudoshusak/n/n9700e8139e18
 
 https://www.palmie.jp/
 
-3D モデルについては、ベースとなる物体を何らかの方法で取り込むことができれば効率化につながると考えますが知見がありません。
-Blender での 3D モデリングについて学ぶ場合、以下の講座がおすすめです。
+3D モデルについては、以下で再配布可能な 3D モデルを探すことが可能です。
+検索時にライセンスでフィルタリングする事ができるので、再配布可能なライセンスで検索を行うことで探せます。
+https://sketchfab.com/
 
+Blender での 3D モデリングについて学ぶ場合、以下の講座がおすすめです。
 https://www.udemy.com/share/104ovs3@putrgarqNrnRLIr4HnRUy2rUjiRWOJh6QH80r_ggsu6OirlsjkLOn_1C7aa2tVy6VQ==/
 
+また、ベースとなる物体を何らかの方法で取り込むことができれば効率化につながると考えますが知見がありません。
 調べてみたところ、AI による 3D モデル作成はまだこれからのようですが進んではいるようです。
 https://techcrunch.com/2022/12/20/openai-releases-point-e-an-ai-that-generates-3d-models/
 
