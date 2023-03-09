@@ -174,7 +174,6 @@ https://learning.unity3d.jp/8848/
 https://note.com/kudoshusak/n/n9700e8139e18
 
 イラストを学ぶ際は、以下のサービスがあります。
-
 https://www.palmie.jp/
 
 3D モデルについては、以下で再配布可能な 3D モデルを探すことが可能です。
